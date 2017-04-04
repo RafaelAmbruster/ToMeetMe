@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <com.app.tomeetme.view.tagview.TagView
+                android:id="@+id/tag_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                android:layout_alignEnd="@+id/image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textSize="12sp"
+                app:tagColor="#ffffbb33"
+                app:tagType="classic"
+                app:tagUpperCase="true" />
+
+            <ImageView
+                android:id="@+id/tag_offer"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="fitCenter"
+                android:layout_below="@id/tag_amount"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/ic_business_voucher"
+                android:layout_alignEnd="@+id/tag_amount" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/custom_profile_image"
+                android:layout_height="@dimen/custom_profile_image"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop"
+                android:layout_below="@id/tag_offer"
+                android:layout_centerVertical="true"
+                android:layout_margin="1dp"
+                android:layout_marginTop="3dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

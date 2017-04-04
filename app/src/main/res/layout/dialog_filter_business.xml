@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/enabled"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:checked="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/material_grey_600"
+        android:textStyle="normal"
+        android:layout_marginTop="16dp"
+        android:text="ENABLE FILTER BY DISTANCE?" />
+
+    <com.app.tomeetme.view.rangeBar.RangeBar
+        android:id="@+id/distance_filter"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        custom:connectingLineColor="@color/colorAccent"
+        custom:pinColor="@color/colorAccent"
+        custom:selectorColor="@color/colorAccent"
+        custom:pinMaxFont="10sp"
+        custom:rangeBarColor="@color/colorAccent"
+        custom:temporaryPins="false"
+        custom:tickColor="@color/colorAccent"
+        custom:tickEnd="10"
+        custom:tickInterval="1"
+        custom:tickStart="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="2dp"
+        android:background="@drawable/md_btn_selector_custom_accent"
+        android:drawableRight="@drawable/ic_action_select_categories"
+        android:text="SELECT CATEGORIES"
+        android:textColor="@color/white" />
+</LinearLayout>

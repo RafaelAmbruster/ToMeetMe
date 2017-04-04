@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="MON 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="#ffffbb33"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="TUE 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="#ffffbb33"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="WED 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="#ffffbb33"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="THU 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="#ffffbb33"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="FRI 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="#ffffbb33"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="SAT 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="@color/colorPrimary"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+        <com.app.tomeetme.view.tagview.TagView
+            android:text="SUN 8:00AM - 5:30PM"
+            android:layout_margin="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            app:tagColor="@color/colorPrimary"
+            app:tagType="reversed_modern"
+            app:tagUpperCase="true"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

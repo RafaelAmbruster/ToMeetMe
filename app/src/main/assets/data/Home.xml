@@ -1,0 +1,32 @@
+<items>
+    <item>
+        <Id>1</Id>
+        <Description>NEAR ME</Description>
+        <Image>1</Image>
+    </item>
+    <item>
+        <Id>2</Id>
+        <Description>FAVORITES</Description>
+        <Image>1</Image>
+    </item>
+    <item>
+        <Id>3</Id>
+        <Description>EVENTS</Description>
+        <Image>1</Image>
+    </item>
+    <item>
+        <Id>4</Id>
+        <Description>COUPONS</Description>
+        <Image>1</Image>
+    </item>
+    <item>
+        <Id>5</Id>
+        <Description>ACCOUNT</Description>
+        <Image>1</Image>
+    </item>
+    <item>
+        <Id>6</Id>
+        <Description>SEARCH</Description>
+        <Image>1</Image>
+    </item>
+</items>

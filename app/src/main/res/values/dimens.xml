@@ -1,0 +1,119 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_w_h">180dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">4dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <declare-styleable name="MoneyTextView">
+        <attr name="format" format="string"/>
+        <attr name="symbol" format="string"/>
+        <attr name="amount" format="float"/>
+        <attr name="symbolMargin" format="dimension"/>
+        <attr name="decimalMargin" format="dimension"/>
+        <attr name="decimalSeparator" format="string"/>
+
+        <attr name="baseTextSize" format="dimension"/>
+        <attr name="symbolTextSize" format="dimension"/>
+        <attr name="decimalDigitsTextSize" format="dimension"/>
+
+        <attr name="symbolGravity">
+            <flag name="start" value="0x01"/>
+            <flag name="end" value="0x02"/>
+            <flag name="top" value="0x04"/>
+            <flag name="bottom" value="0x08"/>
+        </attr>
+
+        <attr name="decimalGravity" format="enum">
+            <enum name="top" value="4"/>
+            <enum name="bottom" value="8"/>
+        </attr>
+
+        <attr name="gravity">
+            <enum name="left" value="0x01"/>
+            <enum name="right" value="0x02"/>
+            <enum name="top" value="0x04"/>
+            <enum name="bottom" value="0x08"/>
+            <enum name="centerVertical" value="0x16"/>
+            <enum name="centerHorizontal" value="0x32"/>
+            <enum name="center" value="0x48"/>
+        </attr>
+
+        <attr name="baseTextColor" format="color"/>
+        <attr name="symbolTextColor" format="color"/>
+        <attr name="decimalTextColor" format="color"/>
+
+        <attr name="includeDecimalSeparator" format="boolean"/>
+        <attr name="decimalUnderline" format="boolean"/>
+        <attr name="fontPath" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TagView">
+        <attr name="tagType" format="enum">
+            <enum name="classic" value="0"/>
+            <enum name="modern" value="1"/>
+            <enum name="sharp" value="2"/>
+            <enum name="modern_sharp" value="3"/>
+            <enum name="reversed_modern" value="4"/>
+            <enum name="reversed_sharp" value="5"/>
+            <enum name="reversed_modern_sharp" value="6"/>
+        </attr>
+        <attr name="tagColor" format="color"/>
+        <attr name="tagUpperCase" format="boolean"/>
+        <attr name="tagBorderRadius" format="integer"/>
+        <attr name="tagCircleRadius" format="integer"/>
+        <attr name="tagCircleColor" format="color"/>
+        <attr name="tagTextColor" format="color"/>
+    </declare-styleable>
+
+    <dimen name="fragment_poi_detail_card_margin_horizontal_first">12dp</dimen>
+    <dimen name="fragment_poi_detail_card_margin_horizontal_last">12dp</dimen>
+    <dimen name="fragment_poi_detail_card_margin_vertical">6dp</dimen>
+    <dimen name="fragment_poi_detail_card_margin_vertical_first">10dp</dimen>
+    <dimen name="fragment_poi_detail_card_margin_vertical_last">16dp</dimen>
+    <dimen name="fragment_poi_detail_info_item_padding">12dp</dimen>
+
+    <dimen name="global_keyline_s">16dp</dimen>
+
+    <dimen name="global_spacing_xxs">8dp</dimen>
+    <dimen name="global_spacing_xs">16dp</dimen>
+    <dimen name="global_spacing_s">24dp</dimen>
+    <dimen name="global_spacing_l">48dp</dimen>
+
+    <dimen name="global_text_size_display_4">112sp</dimen>
+    <dimen name="global_text_size_display_3">56sp</dimen>
+    <dimen name="global_text_size_display_2">45sp</dimen>
+    <dimen name="global_text_size_display_1">34sp</dimen>
+    <dimen name="global_text_size_headline">24sp</dimen>
+    <dimen name="global_text_size_title">20sp</dimen>
+    <dimen name="global_text_size_subhead">16sp</dimen>
+    <dimen name="global_text_size_body_2">14sp</dimen>
+    <dimen name="global_text_size_body_1">14sp</dimen>
+    <dimen name="global_text_size_caption">12sp</dimen>
+    <dimen name="global_text_size_button">14sp</dimen>
+    <dimen name="global_text_size_menu">16sp</dimen>
+
+    <dimen name="elevation_card">2dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="custom_profile_image">40dp</dimen>
+    <dimen name="custom_profile_image_people">16dp</dimen>
+    <dimen name="marker_large">200dp</dimen>
+    <dimen name="marker_large_we">140dp</dimen>
+
+    <dimen name="appbar_top_padding">0dp</dimen>
+
+    <dimen name="patio_default_thumbnail_width">100dp</dimen>
+    <dimen name="patio_default_thumbnail_height">100dp</dimen>
+    <dimen name="patio_default_thumbnails_container_padding">8dp</dimen>
+
+    <dimen name="img_width_height">150dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">20dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+</resources>

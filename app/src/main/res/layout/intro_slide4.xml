@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen4"
+    android:orientation="vertical"
+    android:paddingBottom="100dp"
+    android:paddingTop="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_screen4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/img_width_height"
+                android:layout_height="@dimen/img_width_height"
+                android:src="@drawable/intro_coupon" />
+
+            <com.app.tomeetme.view.widget.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/Coupon"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold"
+                customfontdemo:fontName="Knockout-29.otf" />
+
+            <com.app.tomeetme.view.widget.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="@string/intro_coupons"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/slide_desc"
+                customfontdemo:fontName="Knockout-29.otf" />
+
+            <com.app.tomeetme.view.widget.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/intro_near_me_for_business_tittle"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold"
+                customfontdemo:fontName="Knockout-29.otf" />
+
+            <com.app.tomeetme.view.widget.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="@dimen/desc_padding"
+                android:paddingRight="@dimen/desc_padding"
+                android:text="@string/intro_coupons_for_business"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/slide_desc"
+                customfontdemo:fontName="Knockout-29.otf" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>

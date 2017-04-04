@@ -1,0 +1,116 @@
+<items>
+    <item>
+		<Id>a8b2b662700a4de0be314a7aa6531059</Id>
+		<Name>Automotive</Name>
+		<Description>Automotive Businesses</Description>
+		<ImagePath>ic_auto.png</ImagePath>
+		<MarkerPath>ic_m_auto.png</MarkerPath>
+	</item>
+	<item>
+		<Id>901591a0eb164e74a63f3f0d3524b41d</Id>
+		<Name>Business Support &amp; Supplies</Name>
+		<Description>Business Support &amp; Supplies Businesses</Description>
+		<ImagePath>ic_business.png</ImagePath>
+		<MarkerPath>ic_m_business.png</MarkerPath>
+	</item>
+	<item>
+		<Id>78ccddc0b67443dfa3846844eb6f9023</Id>
+		<Name>Computers &amp; Electronics</Name>
+		<Description>Computers &amp; Electronics Businesses</Description>
+		<ImagePath>ic_computer.png</ImagePath>
+		<MarkerPath>ic_m_computer.png</MarkerPath>
+	</item>
+	<item>
+		<Id>ed67db932cd64d3fbc0fd0eb8abbc411</Id>
+		<Name>Construction &amp; Contractors</Name>
+		<Description>Construction &amp; Contractors Businesses</Description>
+		<ImagePath>ic_construction.png</ImagePath>
+		<MarkerPath>ic_m_construction.png</MarkerPath>
+	</item>
+	<item>
+		<Id>66a9de88152b41ea9105494dcbbc04bf</Id>
+		<Name>Education</Name>
+		<Description>Education Businesses</Description>
+		<ImagePath>ic_education.png</ImagePath>
+		<MarkerPath>ic_m_education.png</MarkerPath>
+	</item>
+	<item>
+		<Id>d8b6a943a3f04cafb5c0e4ffae8bc516</Id>
+		<Name>Entertainment</Name>
+		<Description>Entertainment Businesses</Description>
+		<ImagePath>ic_entertainment.png</ImagePath>
+		<MarkerPath>ic_m_entertainment.png</MarkerPath>
+	</item>
+	<item>
+		<Id>824082f89e454998870afa9f2cf168f3</Id>
+		<Name>Food &amp; Dining</Name>
+		<Description>Food &amp; Dining Businesses</Description>
+		<ImagePath>ic_food.png</ImagePath>
+		<MarkerPath>ic_m_food.png</MarkerPath>
+	</item>
+	<item>
+		<Id>6290cf040faf4d0d9b5250864ef10c73</Id>
+		<Name>Health &amp; Medicine</Name>
+		<Description>Health &amp; Medicine Businesses</Description>
+		<ImagePath>ic_health.png</ImagePath>
+		<MarkerPath>ic_m_health.png</MarkerPath>
+	</item>
+	<item>
+		<Id>9e44d4ddbe354819b4580007b2114425</Id>
+		<Name>Home &amp; Garden</Name>
+		<Description>Home &amp; Garden Businesses</Description>
+		<ImagePath>ic_home.png</ImagePath>
+		<MarkerPath>ic_m_home.png</MarkerPath>
+	</item>
+	<item>
+		<Id>346abece27cf4081bd363beb39c79d58</Id>
+		<Name>Legal &amp; Financial</Name>
+		<Description>Legal &amp; Financial Businesses</Description>
+		<ImagePath>ic_legal.png</ImagePath>
+		<MarkerPath>ic_m_legal.png</MarkerPath>
+	</item>
+	<item>
+		<Id>fc59a27c5ab24212a5e877cf3520f2cf</Id>
+		<Name>Manufacturing, Wholesale, Distribution</Name>
+		<Description>Manufacturing, Wholesale, Distribution Businesses</Description>
+		<ImagePath>ic_manufacturing.png</ImagePath>
+		<MarkerPath>ic_m_manufacturing.png</MarkerPath>
+	</item>
+	<item>
+		<Id>bcfec3e2eaef463abcbf7564315abd0b</Id>
+		<Name>Merchants</Name>
+		<Description>Merchants (Retail) Businesses</Description>
+		<ImagePath>ic_merchants.png</ImagePath>
+		<MarkerPath>ic_m_merchants.png</MarkerPath>
+	</item>
+	<item>
+		<Id>be4ec18b93dc4aec959d8580b8c9947f</Id>
+		<Name>Miscellaneous</Name>
+		<Description>Miscellaneous Businesses</Description>
+		<ImagePath>ic_miscellaneous.png</ImagePath>
+		<MarkerPath>ic_m_miscellaneous.png</MarkerPath>
+	</item>
+	<item>
+		<Id>94b3c7151783465ea3ec572913ada7ff</Id>
+		<Name>Personal Care &amp; Services</Name>
+		<Description>Personal Care &amp; Services Businesses</Description>
+		<ImagePath>ic_personal_care.png</ImagePath>
+		<MarkerPath>ic_m_personal_care.png</MarkerPath>
+	</item>
+	<item>
+		<Id>b38e0253edca4153b59ec752088f5f2b</Id>
+		<Name>Real Estate</Name>
+		<Description>Real Estate Businesses</Description>
+		<ImagePath>ic_realstate.png</ImagePath>
+		<MarkerPath>ic_m_realstate.png</MarkerPath>
+	</item>
+	<item>
+		<Id>f43ee0abae1a46bbbd8dd0d23d229a0f</Id>
+		<Name>Travel &amp; Transportation</Name>
+		<Description>Travel &amp; Transportation Businesses</Description>
+		<ImagePath>ic_travel.png</ImagePath>
+		<MarkerPath>ic_m_travel.png</MarkerPath>
+	</item>
+	
+</items>
+	

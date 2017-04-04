@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_near_me"
+            android:title="@string/str_home" />
+
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_action_online_store"
+            android:title="@string/Business" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_action_favorite"
+            android:enabled="false"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/str_logout" />
+
+    </group>
+
+    <item android:title="Application">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_setting"
+                    android:title="@string/str_nav_setting" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
